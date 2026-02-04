@@ -1,6 +1,6 @@
 import "plugin" "http" {
   config = {
-    proxy_address = "http://3.106.9.152:8888"
+    proxy_address = "http://127.0.0.1:8888"
   }
 }
 
