@@ -4,5 +4,4 @@ client = http.client
 client = client.with_timeout(10)
 client = client.with_retries(0)  // No retries
 resp = client.get("https://httpbin.org")
-#resp = client.get("https://httpbin.org/delay/20")
 main = rule { resp.status_code is 200 }
